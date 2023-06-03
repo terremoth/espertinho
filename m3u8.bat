@@ -1,0 +1,1 @@
+ffmpeg -protocol_whitelist file,http,https,tcp,tls -allowed_extensions ALL -i %1 -bsf:a aac_adtstoasc -c copy %RANDOM%.mp4
